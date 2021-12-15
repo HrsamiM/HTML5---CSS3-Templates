@@ -1,0 +1,55 @@
+/*Slider Style CSS*/
+
+button.hrm_btn_slider {
+    background-color: #18a7de;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    text-transform: uppercase;
+    padding: 5px 25px;
+}
+
+.drk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.534);
+    opacity: 0.6;
+    z-index: 1;
+  }
+  
+  .carousel-caption {
+    z-index: 2;
+  }
+
+
+img.hrm_sliderimg {
+    height: 500px!important;
+    object-fit: cover;
+}
+
+.slide-content {
+    bottom: 10rem !important;
+}
+
+.titleslider{
+    color: #fff !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+}
+
+button.carousel-control-next.hrm-btnind,
+button.carousel-control-prev.hrm-btnind{
+    background-color: #00000000 !important;
+}
+
+button.carousel-control-next.hrm-btnind:hover,
+button.carousel-control-prev.hrm-btnind:hover 
+{
+    background-color: #0000001f !important;
+}
