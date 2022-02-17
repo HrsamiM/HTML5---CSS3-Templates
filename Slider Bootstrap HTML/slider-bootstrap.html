@@ -2,39 +2,31 @@
 
 <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-<div class="carousel-inner">
-  <div class="carousel-item drk active">
-    <img src="/assets/media/image01-bg.jpg" class="d-block w-100 hrm_sliderimg" alt="...">
-    <div class="carousel-caption d-md-block slide-content">
-      <h1 class="titleslider">First slide label</h1>
-      <p>Some representative placeholder content for the first slide.</p>
-      <button type="button" class="btn btn-info">Prefessional Services</button>
-    </div>
-  </div>
-  <div class="carousel-item drk">
-    <img src="/assets/media/image02-bg.jpg" class="d-block w-100 hrm_sliderimg" alt="...">
-    <div class="carousel-caption d-md-block slide-content">
-      <h1 class="titleslider">Second slide label</h1>
-      <p>Some representative placeholder content for the second slide.</p>
-      <button type="button" class="btn btn-info">Internet Services</button>
-    </div>
-  </div>
-  <div class="carousel-item drk">
-    <img src="/assets/media/image03-bg.jpg" class="d-block w-100 hrm_sliderimg" alt="...">
-    <div class="carousel-caption d-md-block slide-content">
-      <h1 class="titleslider">Third slide label</h1>
-      <p>Some representative placeholder content for the third slide.</p>
-      <button type="button" class="btn btn-info">Cloud Services</button>
-    </div>
-  </div>
-</div>
-<button class="carousel-control-prev hrm-btnind" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-  <span class="carousel-control-prev-icon hrm-btnind" aria-hidden="true"></span>
-  <span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next hrm-btnind" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-  <span class="carousel-control-next-icon hrm-btnind" aria-hidden="true"></span>
-  <span class="visually-hidden">Next</span>
-</button>
-</div>
+        <div class="carousel-inner">
+          <div class="carousel-item drk active">
+            <img src="'.esc_url($imageSliderOne).'" class="d-block w-100 hrm_sliderimg" alt="'.esc_attr($titleSlidOne).'">
+            <div class="carousel-caption d-md-block slide-content">
+              <h1 class="titleslider display-4">'.esc_html($titleSlidOne).'</h1>
+              <p class="subdes">'.esc_html($descSliderOne).'</p>
+              <a href="'.esc_url($btnSliderOne).'"><button type="button" class="hrm_btn_slider btn btn-info">Internet Services</button></a>
+            </div>
+          </div>
+          <div class="carousel-item drk">
+            <img src="'.esc_url($imageSliderTwo).'" class="d-block w-100 hrm_sliderimg" alt="'.esc_attr($titleSlidTwo).'">
+            <div class="carousel-caption d-md-block slide-content">
+              <h1 class="titleslider display-4">'.esc_attr($titleSlidTwo).'</h1>
+              <p class="subdes">'.esc_html($descSliderTwo).'</p>
+              <a href="'.esc_url($btnSliderTwo).'"><button type="button" class="hrm_btn_slider btn btn-info">Cloud Services</button></a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev hrm-btnind" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon hrm-btnind" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next hrm-btnind" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon hrm-btnind" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <!-- End slider Section -->
